@@ -3,7 +3,7 @@
 
 <div class="w-full max-w-sm bg-transparent e border border-[#cbb05b] rounded-lg shadow  ">
     <a href="#">
-        <img class="p-8 rounded-t-lg  object-contain h-[375px]" :src="produto.image" alt="product image" />
+        <img class="p-8 rounded-t-lg  object-contain h-[375px]":src="produto.image" alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -39,6 +39,6 @@
 </template>
 
 <script setup>
- defineProps(['produto'])
+ defineProps(['produto']);
 </script>
 
